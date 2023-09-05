@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 82px;
+    padding-right: 20px;
+}
+
+.brand img{
+    height: 68px;
+    width: auto;
+    cursor: pointer;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user .bell{
+    margin-right: 40px;
+    font-size: 18px;
+    color: #464855;
+    font-weight: 900;
+}
+
+.user .user-name{
+    margin-right: 20px;
+    color: #6b6f82;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.user-logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navigate{
+    background-color: #093562;
+    color: white;
+    display: flex;
+}
+
+.link a{
+    color: white;
+    text-decoration: none; 
+    padding: 20px;
+    line-height: 50px;
+}
+
+.link:hover{
+background-color: #083a6b; 
+}
+
+.note{
+    padding: 30px 30px 2px;
+}
+
+.ques{
+    background-color: #d2ecfc;
+    color: #10537e;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.ques p span{
+    color: #1e9ff2;
+    cursor: pointer;
+}
+
+.main-content{
+    display: flex;
+    padding: 10px 30px;
+    margin-top: 5px;
+
+}
+
+.left{
+    width: 880px;
+}
+
+.right{
+    width: 629px;
+}
+
+.left, .right{
+    border-radius: 8px;
+    
+}
+
+.left{
+    margin-right: 20px;
+}
+
+.cont{
+    border-radius: 8px;
+    width: 100%;
+}
+
+.cont{
+    box-shadow: 0 0 4px -1px grey;
+    margin-bottom: 20px;
+}
+
+.left-top .user-name p{
+    padding: 10px 20px;
+    background-color: #1e9ff2;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600px;
+}
+
+.left-bottom .user-name p{
+    padding: 10px 20px;
+    background-color: #1e9ff2;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 600px;
+}
+
+.content-area{
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+
+.col{
+    color: #6b6f82;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+    width: 280px;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+.title .head{
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: normal;
+    margin-bottom: 4px;
+}
+
+.title p a{
+    color: rgb(89, 89, 232);
+    text-decoration: none;
+}
+
+.col-last{
+    display: flex;
+    justify-content: center;
+}
+
+.col-last img{
+    border-radius: 50%;
+}
+
+.left-bottom .content-area{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #6b6f82;
+    font-size: 14px;
+    padding: 5px 0;
+    border-top: 1px solid rgb(233, 228, 228);
+    font-weight: 400;
+}
+
+.row:nth-child(1){
+    font-weight: 700;
+}
+
+.row p:nth-child(2){
+    width: 250px;
+    margin-right: 70px;
+}
+
+.right-top .head{
+    padding: 20px 20px;
+    font-weight: 700;
+    color: #6b6f82;
+    font-size: 18px;
+}
+
+.right-top .content-area{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top .content-area .ro{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #6b6f82;
+    font-size: 13px;
+    padding: 5px 0;
+    border-top: 1px solid rgb(233, 228, 228);
+    font-weight: 500;
+}
+
+.right-top .content-area .ro:nth-child(1){
+    font-weight: bold;
+}
+
+
+.ro p:nth-child(1){
+    width: 76px;
+}
+
+.ro p:nth-child(2){
+    width: 92px;
+}
+
+.ro p:nth-child(3){
+    width: 177px;
+}
+
+.ro p:nth-child(4){
+    width: 102px;
+}
+
+.ro p:nth-child(5){
+    width: 107px;
+}
+
+.right-top .content-area .ro:nth-child(4){
+    border-bottom: 1px solid rgb(233, 228, 228);
+
+}
+
+.right-bottom .content-area .r{
+    width: 100%;
+    display: flex;
+    color: #6b6f82;
+    font-size: 14px;
+    padding: 6px 0;
+    border-top: 1px solid rgb(233, 228, 228);
+    font-weight: 500;
+}
+
+
+
+.right-top .content-area .r:nth-child(1){
+    font-weight: bold;
+}
+
+.r p:nth-child(1){
+    width: 79px;
+    padding-left: 5px;
+}
+
+.r p:nth-child(2){
+    width: 236px;
+}
+
+.right-bottom{
+    box-shadow: 0 0 4px -3px gray;
+}
+
+.right-top .content-area .r:nth-child(9){
+    background-color: #1e9ff2;
+    color: white;
+}
